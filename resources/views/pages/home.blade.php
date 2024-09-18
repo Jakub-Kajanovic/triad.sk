@@ -6,13 +6,13 @@
                     <img class="w-24" src="{{ asset('images/logo/triadLogo.webp') }}"
                         alt="Logo of triad advertasing agency, webP format">
                     <div class="text-green text-text-small border-b border-b-green py-2">
-                        <a href="#">Chcem feedback</a>
+                        <a href="#section-3-contact">Chcem feedback</a>
                     </div>
                 </nav>
             </header>
             <div
                 class="container mx-auto flex lg:flex-row md:flex-row flex-col lg:h-full md:h-full items-center justify-center lg:-my-20 md:-my-20 py-10  lg:px-16 md:px-16 px-8">
-                <div class="lg:w-1/2 md:w-1/2">
+                <div class="lg:w-1/2 md:w-1/2 pl-10 lg:pl-0 md:pl-0">
                     <h1 data-text="Review"
                         class="lg:text-title-large md:text-title-large text-title-large-mobile text-green text-stacked">
                         Review
@@ -37,8 +37,9 @@
                             ťa môže poslať na kávu s Wosom, alebo <span class="text-green">
                                 až do Devína.</span></h3>
                         <div class="lg:pt-16 md:pt-16 pt-10 relative">
-                            <img class="absolute -mt-4 -ml-5 w-20" src="{{ asset('images/vozik.svg') }}" alt="">
-                            <img class="w-32" src="{{ asset('images/kolajnice.svg') }}" alt="">
+                            <img class="absolute -mt-2 -ml-10 w-20 lg:w-40" src="{{ asset('images/vozik.svg') }}"
+                                alt="">
+                            <img class="w-32 lg:w-80" src="{{ asset('images/kolajnice.svg') }}" alt="">
                         </div>
                     </div>
                 </div>
@@ -48,8 +49,10 @@
             </div>
         </div>
     </section>
-    <section id="section-2" class="flex lg:flex-row md:flex-row flex-col w-full lg:h-screen md:h-screen h-auto py-10 px-4">
-        <div class="container mx-auto flex lg:flex-row md:flex-row flex-col items-center justify-center h-full lg:gap-10 md:gap-10 gap-4">
+    <section id="section-2"
+        class="flex lg:flex-row md:flex-row flex-col w-full lg:h-screen md:h-screen h-auto py-10 px-4">
+        <div
+            class="container mx-auto flex lg:flex-row md:flex-row flex-col items-center justify-center h-full lg:gap-10 md:gap-10 gap-4">
             <div class="lg:w-1/2 md:w-1/2">
                 <div class="max-w-lg">
                     <h2
@@ -63,7 +66,8 @@
                         pozvanie na kávu od nás.
                     </p>
                     <div class="flex justify-center">
-                        <img class="lg:pt-16 md:pt-16 lg:w-20 md:w-10 w-3" src="{{ asset('images/arrow.svg') }}" alt="Scribed Arrow">
+                        <img class="lg:pt-16 md:pt-16 lg:w-12 md:w-12 w-3" src="{{ asset('images/arrow.svg') }}"
+                            alt="Scribed Arrow">
                     </div>
                 </div>
             </div>
@@ -72,7 +76,8 @@
                     <img class="lg:w-64 md:w-64 w-28" src="{{ asset('images/wosa-background.png') }}"
                         alt="CEO of Triad Wosa">
                     <div class="flex flex-col lg:gap-10 md:gap-10 gap-4">
-                        <h2 class="lg:text-title-medium md:text-title-medium text-title-small-mobile text-balance"><span class="text-green ">Wosa</span> ti dá
+                        <h2 class="lg:text-title-medium md:text-title-medium text-title-small-mobile text-balance"><span
+                                class="text-green ">Wosa</span> ti dá
                             feedback</h2>
                         <p class="text-text-small"><strong>Chief Creative and Strategy Officer</strong> pre
                             slovenský a český TRIAD. </p>
@@ -83,16 +88,18 @@
                     New York až po
                     globálne ocenenia na Warc, Effie a Saber
                 </p>
-                <div class="text-black text-text-small border-b border-b-black py-2 w-fit lg:pt-20 md.pt-20 pt-10">
-                    <a href="#">Poď si po feedback od AI Wosu</a>
+                <div
+                    class="text-black text-text-small border-b border-b-black lg:py-2 md:py-2 w-fit lg:pt-20 md:pt-20 pt-10">
+                    <a href="#section-3-contact">Poď si po feedback od AI Wosu</a>
                 </div>
             </div>
             <div>
             </div>
         </div>
     </section>
-    <section id="section-3" class="w-full lg:h-screen md:h-screen h-auto py-20">
-        <form id="" action="" class="container mx-auto flex lg:flex-row md:flex-row flex-col items-start h-full px-4 lg:px-0 md:px-0">
+    <section id="section-3-contact" class="w-full lg:h-auto md:h-auto h-auto lg:py-20 md:py-20 py-10">
+        <form id="" action=""
+            class="container mx-auto flex lg:flex-row md:flex-row flex-col lg:items-start md:items-start h-full px-4 lg:px-0 md:px-0">
             <div class="lg:w-1/2 md:w-1/2  lg:mt-16 md:mt-16 mt-4">
                 <div class="flex flex-row justify-center items-center gap-3">
                     <img src="{{ asset('images/number1.svg') }}" alt="SVG ICON of Number 1 scribbed">
@@ -109,7 +116,8 @@
                         <input type="email" name="email" id="email"
                             class="px-3 py-5 rounded-[0.63rem] text-sm text-cream w-full bg-transparent border-2 focus:ring-green focus:border-green focus:shadow-triad focus:shadow-green "placeholder="E-mail">
                     </div>
-                    <div class="flex flex-row gap-10 mt-20 items-center w-full">
+                    <div
+                        class="flex flex-row gap-10 mt-20 items-center lg:justify-start md:justify-start justify-center w-full">
                         <label for="cv"
                             class="cursor-pointer border-b-2 border-green text-green py-2 text-text-large">
                             Nahraj Svoje CV
@@ -119,7 +127,8 @@
                     </div>
                 </div>
             </div>
-            <div class="lg:h-[66%] border w-[88%] lg:w-0 md:w-0 border-white/10 lg:mt-60 md:mt-60 my-10 lg:flex md:flex"></div>
+            <div class="lg:h-[66%] border w-full lg:w-0 md:w-0 border-white/10 lg:mt-60 md:mt-60 my-10 lg:flex md:flex">
+            </div>
             <div class="lg:w-1/2 md:w-1/2 lg:mt-16 mt-4">
                 <div class="flex flex-row justify-center items-center gap-3">
                     <img src="{{ asset('images/number2.svg') }}" alt="SVG ICON of Number 2 scribbed">
@@ -131,7 +140,8 @@
                         <textarea rows="14" type="text" name="message" id="message"
                             class="px-3 py-5 rounded-[0.63rem] text-sm text-cream w-full bg-transparent border-2 focus:ring-green focus:border-green focus:shadow-triad focus:shadow-green "placeholder="Sem opíš svoju prácu, ktorú máš rád, alebo chceš vylepšiť"></textarea>
                     </div>
-                    <div class="flex lg:flex-row md:flex-row flex-col lg:gap-0 md:gap-0 gap-4 items-center w-full pt-10">
+                    <div
+                        class="flex lg:flex-row md:flex-row flex-col lg:gap-0 md:gap-0 gap-4 items-center w-full pt-10">
                         <div class="flex flex-row w-full">
                             <label class="flex items-center cursor-pointer relative" for="check-2">
                                 <input type="checkbox"
@@ -164,19 +174,19 @@
             </div>
         </form>
     </section>
-    <section id="section-4" class="bg-cream pb-20">
+    <section id="section-4" class="bg-cream lg:pb-20 md:pb-20 pb-10">
         <div class="container mx-auto">
-            <header class="container mx-auto">
+            <header class="container mx-auto px-4 lg:px-0 md:px-0">
                 <nav class="flex flex-row justify-end items-center">
                     <div class="text-green text-text-small border-b border-b-green py-2 mt-14">
-                        <a href="#">Chcem feedback</a>
+                        <a href="#section-3-contact">Chcem feedback</a>
                     </div>
                 </nav>
             </header>
-            <div class="flex flex-row items-center pt-10">
-                <div class="w-1/2 flex justify-center">
+            <div class="flex lg:flex-row md:flex-row flex-col items-center pt-10">
+                <div class="lg:w-1/2 md:w-1/2  flex justify-center px-4 lg:px-0 md:px-0">
                     <div class="max-w-lg">
-                        <h1 class="text-title-large text-balance">
+                        <h1 class="lg:text-title-large md:text-title-large text-title-large-mobile text-balance">
                             Toto sme my, <span class="text-green">TRIAD</span>
                         </h1>
                         <p class="text-text-large mt-10"><strong>Už takmer dekádu sme špička slovenskej reklamy.
@@ -185,7 +195,7 @@
                             klientov, ako sú: O2, VÚB, Fun Rádio, Rádio Vlna, LIDL, Martinus, Slido, Corwin či mnohí
                             ďalší.
                         </p>
-                        <div class="flex flex-row items-start gap-5 mt-16">
+                        <div class="flex flex-row items-start lg:gap-5 md:gap-5 gap-2 lg:mt-16 md:mt-16 mt-10">
                             <svg width="120" height="45" viewBox="0 0 30 45" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -206,8 +216,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-1/2 flex justify-center">
-                    <div class="work relative block w-[456px] h-[546px]">
+                <div class="lg:w-1/2 md:w-1/2 flex justify-center lg:pt-0 md:pt-0 pt-10">
+                    <div
+                        class="work relative block lg:w-[456px] lg:h-[546px] md:w-[456px] md:h-[546px] w-[300px] h-[430px]">
                         <img class="clone1 z-[5] absolute top-0 left-0 transform -translate-x-[1vw] -translate-y-[1vw] opacity-0 transition-opacity duration-200 ease-in-out pointer-events-none"
                             src="{{ asset('images/triad-people.png') }}" alt="Triad workers">
                         <img class="clone0 z-[4] absolute top-0 left-0 transform -translate-x-[2vw] -translate-y-[2vw] opacity-0 transition-opacity duration-200 ease-in-out pointer-events-none"
@@ -217,79 +228,57 @@
                     </div>
                 </div>
             </div>
-            <div class="flex flex-row justify-between items-end px-10">
-                <div class="pt-20">
+            <div class="flex lg:flex-row md:flex-row flex-col justify-between lg:items-end lg:px-10 md:px-10 px-4">
+                <div class="lg:pt-20 md:pt-20 pt-0">
                     <img class="w-20" src="{{ asset('images/logo/logo2.webp') }}"
                         alt="Logo od Triad Marketing Agency SVG">
-                    <ul class="flex flex-row text-text-large">
-                        <li class="text-green"><a class="flex flex-row items-center" href="">Triad is a
+                    <ul
+                        class="flex lg:flex-row md:flex-row flex-col lg:text-text-large md:text-text-large text-text-large-mobile text-nowrap">
+                        <li class="text-green"><a class="flex flex-row lg:items-center" href="">Triad is a
                                 member
-                                of <span class="underline mx-2">DevinBrand</span><i class="mr-2"><img
-                                        src="{{ asset('images/arrowRight.svg') }}" alt=""></i></a></li>
+                                of <span class="underline px-2 flex flex-row items-center">DevinBrand<img
+                                        class="px-1" src="{{ asset('images/arrowRight.svg') }}"
+                                        alt=""></span></a></li>
                         <li class="text-green"><a class="flex flex-row items-center" href="">We use<span
-                                    class="underline mx-2"> Allfred</span><i class="mr-2"><img
-                                        src="{{ asset('images/arrowRight.svg') }}" alt=""></i>for agency
+                                    class="underline px-2 flex flex-row items-center"> Allfred<img class="px-1"
+                                        src="{{ asset('images/arrowRight.svg') }}" alt=""></span>for agency
                                 management</a></li>
                     </ul>
-                    <div>
+                    <div class="mt-6 lg:mt-0 md:mt-0">
                         <form action="" class="flex flex-col">
                             <label for="newsletter" class="text-text-large font-bold ">
                                 Try our super useful newsletter!
                             </label>
                             <div class="flex flex-row gap-5">
                                 <input type="email" id="newsletter" name="newsletter"
-                                    class="border-none px-2 py-2 bg-transparent text-black font-bold text-lg placeholder-black focus:outline-none focus:ring-0 focus:border-transparent w-40"
+                                    class="border-none px-2 py-2 bg-transparent text-black font-bold text-lg placeholder-black placeholder:text-text-large focus:outline-none focus:ring-0 focus:border-transparent w-44"
                                     placeholder="your@email.here">
                                 <button type="submit"
-                                    class="underline text-green font-bold text-lg border-none bg-none">Sign me
+                                    class="underline text-green font-bold border-none bg-none text-text-large">Sign me
                                     up</button>
                             </div>
                         </form>
                     </div>
                 </div>
-                <div class="flex flex-col">
-                    <ul class="flex flex-row text-text-large text-black space-x-1">
-                        <li>
-                            <a href="#">Home,</a>
-                        </li>
-                        <li>
-                            <a href="#">About,</a>
-                        </li>
-                        <li>
-                            <a href="#">Services,</a>
-                        </li>
-                        <li>
-                            <a href="#">Contact,</a>
-                        </li>
-                        <li>
-                            <a href="#">Kariéra,</a>
-                        </li>
-                        <li>
-                            <a href="#">Blog,</a>
-                        </li>
-                        <li>
-                            <a href="#">Privacy policy</a>
-                        </li>
+                <div class="flex flex-col mt-6 lg:mt-0 md:mt-0">
+                    <ul
+                        class="flex flex-wrap lg:flex-nowrap md:flex-nowrap lg:text-nowrap md:text-nowrap flex-row text-text-large text-black space-x-1 mb-2 lg:mb-0">
+                        <li><a href="#">Home,</a></li>
+                        <li><a href="#">About,</a></li>
+                        <li><a href="#">Services,</a></li>
+                        <li><a href="#">Contact,</a></li>
+                        <li><a href="#">Kariéra,</a></li>
+                        <li><a href="#">Blog,</a></li>
+                        <li><a href="#">Privacy policy</a></li>
                     </ul>
-                    <ul class="flex flex-row text-text-large text-green space-x-1">
-                        <li>
-                            <a href="#">Instagram,</a>
-                        </li>
-                        <li>
-                            <a href="#">Facebook,</a>
-                        </li>
-                        <li>
-                            <a href="#">YouTube,</a>
-                        </li>
-                        <li>
-                            <a href="#">Spofity,</a>
-                        </li>
-                        <li>
-                            <a href="#">LinkedIn,</a>
-                        </li>
-                        <li>
-                            <a href="#">TikTok,</a>
-                        </li>
+                    <ul
+                        class="flex flex-wrap lg:flex-nowrap md:flex-nowrap lg:text-nowrap md:text-nowrap flex-row text-text-large text-green space-x-1">
+                        <li><a href="#">Instagram,</a></li>
+                        <li><a href="#">Facebook,</a></li>
+                        <li><a href="#">YouTube,</a></li>
+                        <li><a href="#">Spotify,</a></li>
+                        <li><a href="#">LinkedIn,</a></li>
+                        <li><a href="#">TikTok,</a></li>
                     </ul>
                 </div>
             </div>

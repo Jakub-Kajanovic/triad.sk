@@ -40,6 +40,7 @@
     font-display: swap;
 }
 *{
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
 }
@@ -130,6 +131,12 @@ button {
     .text-stacked::after {
         bottom: 2rem;
         left: -2rem;
+    }
+    .work:hover .clone1 {
+        transform: translate(-3vw, -3vw);
+    }
+    .work:hover .clone0 {
+        transform: translate(-6vw, -6vw);
     }
 }
 
