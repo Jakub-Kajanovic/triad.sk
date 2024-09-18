@@ -98,3 +98,53 @@ button {
 #section-2 {
     background: linear-gradient(to right, #1A1A1A 50%, #F2F0E4 50%);
 }
+.clone1 {
+    transition-delay: 0s; 
+}
+.clone0 {
+    transition-delay: 0.1s; 
+}
+.work:hover .clone1 {
+    opacity: 1;
+}
+.work:hover .clone0 {
+    opacity: 1;
+}
+.work .clone1, .work .clone0 {
+    transition: opacity 0.2s ease-in-out;
+}
+
+.work:hover .clone1 {
+    transform: translate(-1vw, -1vw);
+}
+.work:hover .clone0 {
+    transform: translate(-2vw, -2vw);
+}
+
+/*Media queries*/
+@media (max-width: 768px) {
+    .text-stacked::before {
+        top: 2rem;
+        left: 2rem;
+    }
+    .text-stacked::after {
+        bottom: 2rem;
+        left: -2rem;
+    }
+}
+
+/* Media Query pre veľmi malé obrazovky */
+@media (max-width: 480px) {
+    .text-stacked::before {
+        top: 2.3rem;
+        left: 2.4rem;
+    }
+
+    .text-stacked::after {
+        bottom: 2.3rem;
+        left: -2.4rem;
+    }
+    #section-2 {
+        background: linear-gradient(to bottom, #1A1A1A 50%, #F2F0E4 50%);
+    }
+}

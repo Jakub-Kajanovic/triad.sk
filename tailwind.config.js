@@ -20,9 +20,16 @@ export default {
         'text-small': ['16px', { lineHeight: '1.6' }],    // menší text (16px)
         'text-large': ['20px', { lineHeight: '1.6' }],    // väčší text (20px)
         'button': ['16px', { lineHeight: '1.6' }],        // text pre tlačidlo (16px)
+        // Pridanie ešte menších veľkostí pre mobilné zariadenia
+        'title-large-mobile': ['60px', { lineHeight: '0.83' }],  // veľký nadpis pre mobilné zariadenia (60px)
+        'title-medium-mobile': ['36px', { lineHeight: '1.3' }],  // stredný nadpis pre mobilné zariadenia (36px)
+        'title-small-mobile': ['20px', { lineHeight:'1.3' }],   // najmenší nadpis pre mobilné zariadenia (20px)
+        'text-small-mobile': ['14px', { lineHeight: '1.6' }],    // menší text pre mobilné zariadenia (14px)
+        'text-large-mobile': ['18px', { lineHeight: '1.6' }],    // väčší text pre mobilné zariadenia (18px)
+        'button-mobile': ['14px', { lineHeight: '1.6' }],        // text pre tlačidlo pre mobilné zariadenia (14px)
       },
       boxShadow: {
-        'triad' : ['box-shadow: 1px 1px 10px 3px #81dd7726']
+        'triad' : ['1px 1px 10px 3px #81dd7726']
       }
     },
   },
