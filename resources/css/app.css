@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url('/public/fonts/MaisonNeue-Light.woff2') format('woff2'),
+    url('/public//fonts/MaisonNeue-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url('/public/fonts/MaisonNeue-Bold.woff2') format('woff2'),
+    url('/public/fonts/MaisonNeue-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maison Neue Book';
+    src: url('/public/fonts/MaisonNeue-Book.woff2') format('woff2'),
+    url('/public/fonts/MaisonNeue-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url('/public/fonts/MaisonNeue-Mono.woff2') format('woff2'),
+    url('/public/fonts/MaisonNeue-Mono.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* fonts */
+h1,h2,h3{
+    font-family: 'Maison Neue' sans-serif;
+    font-weight: bold;
+}
+a {
+    font-family: 'Maison Neue' sans-serif;
+    font-weight: bold;
+}
+p {
+    font-family: "Public Sans", sans-serif;
+}
+button {
+    font-family: 'Maison Neue' sans-serif;
+}
+.text-stacked {
+    position: relative;
+    z-index: 3;
+}
+.text-stacked::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 4.2rem;
+    left: 4.5rem;
+    color: #F2F0E4;
+    z-index: 2;
+}
+.text-stacked::after{
+    content: attr(data-text);
+    position: absolute;
+    bottom: 4.2rem;
+    left: -4.5rem;
+    color: #91DDEE;
+    z-index: -1;
+}
+.circled-text {
+    position: relative;
+    z-index: 1;
+}
+.circled-text::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110%;
+    height: 111%;
+    background: url('/public/images/circled.svg') no-repeat;
+    background-size: contain; 
+    background-position: left center; 
+    z-index: 2;
+}
+#section-2 {
+    background: linear-gradient(to right, #1A1A1A 50%, #F2F0E4 50%);
+}
