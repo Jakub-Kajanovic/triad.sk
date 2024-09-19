@@ -84,6 +84,8 @@ button {
     color: #91DDEE;
     z-index: -1;
 }
+/* end fonts */
+/* section, text */
 .circled-text {
     position: relative;
     z-index: 1;

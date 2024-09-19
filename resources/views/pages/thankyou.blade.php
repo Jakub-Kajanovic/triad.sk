@@ -39,21 +39,5 @@
         </div>
     </section>
 </x-layout>
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-    const countElement = document.querySelector('.count');
-    const panak = document.getElementById('panak');
-    let count = 0;
 
-    const interval = setInterval(() => {
-        if (count < 100) {
-            count++;
-            countElement.textContent = count + '%';
-        } else {
-            clearInterval(interval); 
-        }
-    }, 20); 
-
-    panak.style.animation = "walkToHouse 10s linear forwards";
-});
-</script>
+<script src="{{asset('js/count.js')}}"></script>
